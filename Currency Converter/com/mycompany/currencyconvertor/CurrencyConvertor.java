@@ -1,10 +1,12 @@
+package com.mycompany.currencyconvertor;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Scanner;
 
-public class CurrencyConverter {
+public class CurrencyConvertor {
 
     private static final String API_URL = "https://open.er-api.com/v6/latest/USD";
 
